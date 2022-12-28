@@ -17,6 +17,12 @@
 
 ;; activate zenburn theme
 (load-theme 'zenburn t)
+;; override face setting
+(set-face-attribute 'default nil :background "black")
+(set-face-attribute 'region nil :background "#77d9a8" :foreground "black")
+(set-face-attribute 'font-lock-variable-name-face nil :foreground "white")
+(set-face-attribute 'font-lock-string-face nil :foreground "#f6aa00")
+(set-face-attribute 'font-lock-comment-face nil :foreground "#77d9a8")
 
 (setq inhibit-startup-message t)
 (setq make-backup-files nil)
